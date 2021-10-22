@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className='max-w-4xl mt-20 mx-auto'>
+    <div className='max-w-4xl mt-4 sm:mt-20 mx-auto'>
       <p className='text-2xl text-black md:text-4xl font-bold text-center'>
         Interested to Work With Me?
       </p>
