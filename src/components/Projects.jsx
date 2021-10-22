@@ -157,7 +157,7 @@ const Projects = () => {
 
 
         {/* Awarding */}
-        <div className='overflow-hidden shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-5 hover:shadow-2xl rounded-lg h-90 w-60 md:w-80 cursor-pointer mx-auto'>
+        <div className='overflow-hidden shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-5 hover:shadow-2xl rounded-lg h-90 w-60 md:w-80 cursor-pointer mx-auto mb-20'>
           <img src={awarding} alt="Budgety" className='max-h-40 w-full object-cover' />
           <div className='bg-white w-full p-4'>
             <p className='text-indigo-500 text-2xl font-medium'>
@@ -188,7 +188,7 @@ const Projects = () => {
 
 
         {/* Monaco */}
-        <div className='overflow-hidden shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-5 hover:shadow-2xl rounded-lg h-90 w-60 md:w-80 cursor-pointer mx-auto'>
+        <div className='overflow-hidden shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-5 hover:shadow-2xl rounded-lg h-90 w-60 md:w-80 cursor-pointer mx-auto mb-20'>
           <img src={monaco} alt="Budgety" className='max-h-40 w-full object-cover' />
           <div className='bg-white w-full p-4'>
             <p className='text-indigo-500 text-2xl font-medium'>

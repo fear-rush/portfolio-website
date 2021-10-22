@@ -10,7 +10,7 @@ const About = () => {
 
 
   return (
-    <div className='max-w-4xl mt-20 mx-auto'>
+    <div className='max-w-4xl mt-12 sm:mt-20 mx-auto'>
       <p className='text-2xl text-black md:text-4xl font-bold text-center'>
         Hello <span>👋</span>
       </p>
@@ -18,7 +18,7 @@ const About = () => {
         I'm a web developer, mostly worked on front-end developer and currently im studying devops tech stack like docker, nginx and kubernetes.
       </p>
 
-        <div className='mx-auto p-20 my-12'>
+        <div className='mx-auto p-8 sm:p-20 my-2 sm:my-12'>
           <FaChevronDown onClick={onContentClick} className='animate-bounce mx-auto text-3xl text-blue-500'/>
         </div>
 

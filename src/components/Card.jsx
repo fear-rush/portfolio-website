@@ -5,7 +5,7 @@ import {FaGithub, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'
 const Card = () => {
   return (
     <div className = 'w-full'>
-      <div className = 'overflow-hidden flex flex-col justify-center mt-10 max-w-md mx-auto bg-white shadow-2xl rounded-lg p-9'>
+      <div className = 'overflow-hidden flex flex-col justify-center mt-4 sm:mt-10 max-w-md mx-auto bg-white shadow-2xl rounded-lg p-9'>
         <div className=''>
           <img className='w-32 mx-auto' src={profile} alt='profile'></img>
         </div>

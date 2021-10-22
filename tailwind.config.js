@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontSize: ['hover'],
       boxSizing: ['hover', 'focus'],
+      margin: ['responsive', 'hover'],
     },
   },
   plugins: [],
