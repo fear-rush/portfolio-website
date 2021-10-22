@@ -4,15 +4,11 @@ import { SiTailwindcss, SiJavascript } from 'react-icons/si'
 
 const Skills = () => {
   return (
-    <div className='max-w-4xl mx-auto justify-center py-12' id='tech-stack'>
+    <div className='max-w-4xl mx-auto justify-center py-12' id='tech'>
       <p className='text-2xl text-black sm:text-4xl text-center font-bold pt-4'>
-        Tech Stack
+        Tech Stack <span>📚</span>
       </p>
       <div className='flex flex-wrap justify-center pt-2'>
-        {/* <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
-          <FaHtml5 className='mx-auto'/>
-          <p className='mt-6 text-xl sm:text-2xl font-semibold text-center'>HTML</p>
-        </div> */}
           <TechStack icon={<FaHtml5 color='#f06529' size='38' className='mx-auto'/>} name='HTML'/>
           <TechStack icon={<FaCss3 color='#2965f1' size='38' className='mx-auto'/>} name='CSS'/>
           <TechStack icon={<SiJavascript color='#f0db4f' size='38' className='mx-auto'/>} name='Javascript'/>
